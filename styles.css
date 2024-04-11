@@ -1,0 +1,4 @@
+/* Example style to change the background color of the logo in the global navigation */
+div.ic-app-header__logomark-container {
+  background-color: goldenrod;
+}
