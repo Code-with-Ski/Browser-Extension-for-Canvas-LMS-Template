@@ -8,7 +8,6 @@
     "https://*.beta.instructure.com/*",
     "https://*.test.instructure.com/*"
   ],
-  "optional_host_permissions": ["*://*/*"],
   "content_scripts": [
     {
       "matches": ["*://*/*"],
