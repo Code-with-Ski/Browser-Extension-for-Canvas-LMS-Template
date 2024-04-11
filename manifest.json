@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Extension for Canvas LMS Template",
+  "version": "1.0",
+  "description": "Use this as a template to create a browser extension to use with the Canvas LMS.",
+  "host_permissions": [
+    "https://*.instructure.com/*",
+    "https://*.beta.instructure.com/*",
+    "https://*.test.instructure.com/*"
+  ],
+  "optional_host_permissions": ["*://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
